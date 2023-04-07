@@ -1,94 +1,65 @@
 # extension methods
 
-## abstraction interface
+## static class
 
 ```c#
 using System;
-namespace extension_methods_practice.extentionmethods.abstractions
+namespace extension_methods.extensionmethods
 {
-	public interface IGetStudentToDTO
+	public static class ExtensionMethodsForClass1
 	{
-	}
-}
+		/// <summary>
+		/// syntax for creating extension methods. use 'this' on first parameter which should be the og class where we want to add our extension method
+		/// can only extend method to one class
+		/// </summary>
+		/// <param name="c1">adds method 'subtract' to class1</param>
+		/// <param name="a"></param>
+		/// <param name="b"></param>
+		/// <returns></returns>
 
-```
-
-## entity class
-
-```c#
-using System;
-using extension_methods_practice.extentionmethods.abstractions;
-
-namespace extension_methods_practice.repo
-{
-	public class StudentEntity:IGetStudentToDTO
-	{
-		private string _firstName;
-		private string _lastName;
-
-		public void GetStudent(int id)
+		public static int Subtract(this Class1 c1, int a, int b)
 		{
-            _firstName = "billy";
-			_lastName = "bob";
-        }
-
-		public string GetFirstName()
-		{
-			return _firstName;
-		}
-
-        public string GetLastName()
-        {
-            return _lastName;
-        }
-    }
-}
-
-
-```
-
-## implementation class
-
-```c#
-using System;
-using extension_methods_practice.business;
-using extension_methods_practice.extentionmethods.abstractions;
-using extension_methods_practice.repo;
-
-namespace extension_methods_practice.extentionmethods.implementations
-{
-	public static class MapToStudentDTOWithInterface
-	{
-		public static StudentDTO MapToStudentDTOInterface(this IGetStudentToDTO obj, StudentEntity student)
-		{
-			StudentDTO studentToReturn = new StudentDTO();
-
-			string name = $"{student.GetFirstName()} {student.GetLastName()}";
-
-			studentToReturn.StudentName = name;
-			return studentToReturn;
+			return a - b;
 		}
 	}
 }
-
 ```
 
-### implementation
+## receiving class
 
 ```c#
-using extension_methods_practice.business;
-using extension_methods_practice.extentionmethods.implementations;
-using extension_methods_practice.repo;
+using System;
+namespace extension_methods
+{
+	public class Class1
+	{
 
-StudentEntity _repoStudent = new StudentEntity();
+		public string Name { get; set; }
+		private int _age;
+		protected int _height;
 
-_repoStudent.GetStudent(1);
+        // ^ private and protected fields are not going to be visible/usable in an extension method
 
-StudentDTO _studentDTO1 = new StudentDTO();
+        public int Sum(int a, int b) {
+			return a + b;
+		}
 
-_studentDTO1 = _repoStudent.MapToStudentDTONoInterface();
 
-Console.WriteLine(_studentDTO1.StudentName);
+	}
+}
+```
+
+## implementation
+
+```c#
+using System.Text;
+using extension_methods;
+using extension_methods.extensionmethods;
+
+Class1 _class = new Class1();
+
+Console.WriteLine(_class.Subtract(2, 4));
 
 Console.ReadLine();
+
 ```
