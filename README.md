@@ -1,5 +1,10 @@
 # .Net Reference Sheet
 
+## base concepts
+
+- [class inheritance](./concepts/class-inheritance.md)
+- [dependency injection](./concepts/dependency-injection.md)
+
 ## miscellaneous
 
 - [haversine formula](./miscellaneous/haversine-formula.md)
