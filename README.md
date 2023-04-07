@@ -6,4 +6,5 @@
 
 ## utility
 
+- [json serialization](./utility/json-serialization.md)
 - [xml serialization](./utility/xml-serialization.md)
