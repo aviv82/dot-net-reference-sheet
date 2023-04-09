@@ -16,3 +16,7 @@
 - [image re-sizer](./utility/image-resizer.md)
 - [json serialization](./utility/json-serialization.md)
 - [xml serialization](./utility/xml-serialization.md)
+
+## entity framework
+
+- [ef cli](./entity-framework/ef-cli.md)
