@@ -8,6 +8,17 @@ using System.Drawing.Drawing2D;
   {
     public static class ImageHelper
     {
+        private const string DESTINATIONPATH = @"../../../thumbs/";
+
+        private static int ImageAspectRatioCalculator(double sourceWidth, double sourceHeight, int desiredWidth)
+        {
+            double aspectRatio = sourceWidth / sourceHeight;
+
+            int desiredHeight = (int)Math.Floor(desiredWidth / aspectRatio);
+
+            return desiredHeight;
+        }
+
       public static void ResizeImageV2(byte[] originalArray, string fileName, int desiredWidth)
         {
             MemoryStream originalStream = new MemoryStream(originalArray, 0, originalArray.Length);
