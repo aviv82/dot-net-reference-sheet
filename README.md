@@ -12,6 +12,7 @@
 
 ## utility
 
+- [file reader / writer](./utility/file-reader-writer.md)
+- [image re-sizer](./utility/image-resizer.md)
 - [json serialization](./utility/json-serialization.md)
 - [xml serialization](./utility/xml-serialization.md)
-- [file reader / writer](./utility/file-reader-writer.md)
