@@ -19,7 +19,7 @@ using System.Drawing.Drawing2D;
             return desiredHeight;
         }
 
-      public static void ResizeImageV2(byte[] originalArray, string fileName, int desiredWidth)
+        public static void ResizeImageV2(byte[] originalArray, string fileName, int desiredWidth)
         {
             MemoryStream originalStream = new MemoryStream(originalArray, 0, originalArray.Length);
             originalStream.Write(originalArray, 0, originalArray.Length);
