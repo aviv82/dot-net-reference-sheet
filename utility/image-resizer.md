@@ -5,7 +5,7 @@ sing System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Drawing2D;
   namespace image_resizer.helpers
-  {
+  {`
     public static class ImageHelper
     {
         private const string DESTINATIONPATH = @"../../../thumbs/";
