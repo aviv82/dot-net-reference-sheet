@@ -1,10 +1,11 @@
 # .Net Reference Sheet
 
-## base concepts
+## basic properties
 
-- [class inheritance](./concepts/class-inheritance.md)
-- [dependency injection](./concepts/dependency-injection.md)
-- [extension methods](./concepts/extension-methods.md)
+- [class inheritance](./basic-properties/class-inheritance.md)
+- [delegates](./basic-properties/delegates.md)
+- [dependency injection](./basic-properties/dependency-injection.md)
+- [extension methods](./basic-properties/extension-methods.md)
 
 ## miscellaneous
 

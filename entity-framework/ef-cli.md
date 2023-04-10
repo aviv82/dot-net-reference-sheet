@@ -36,3 +36,11 @@
 
 - script migration to file
   `--dotnet ef migrations script V1 -o MyDbScript.sql`
+
+- update database
+
+`dotnet ef database update`
+
+### resources
+
+- [learn entity frameworks](https://www.learnentityframeworkcore.com/)
