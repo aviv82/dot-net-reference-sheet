@@ -7,6 +7,10 @@
 - [dependency injection](./basic-properties/dependency-injection.md)
 - [extension methods](./basic-properties/extension-methods.md)
 
+## linq
+
+- [linq](./linq/linq.md)
+
 ## miscellaneous
 
 - [haversine formula](./miscellaneous/haversine-formula.md)
