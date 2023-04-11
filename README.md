@@ -7,6 +7,10 @@
 - [dependency injection](./basic-properties/dependency-injection.md)
 - [extension methods](./basic-properties/extension-methods.md)
 
+## core concepts
+
+- [solid principles](./core%20concepts/s-o-l-i-d-principles.md)
+
 ## linq
 
 - [linq](./linq/linq.md)
