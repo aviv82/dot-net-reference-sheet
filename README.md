@@ -20,6 +20,10 @@
 
 - [haversine formula](./miscellaneous/haversine-formula.md)
 
+## sql
+
+- [sql reference sheet](./sql/sql.md)
+
 ## utility
 
 - [file reader / writer](./utility/file-reader-writer.md)
