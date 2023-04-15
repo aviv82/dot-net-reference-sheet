@@ -12,6 +12,10 @@
 - [database normalization and acid](./core%20concepts/db-normalization-and-acid.md)
 - [solid principles](./core%20concepts/s-o-l-i-d-principles.md)
 
+## data types
+
+- [strings](./data-types/strings.md)
+
 ## linq
 
 - [linq](./linq/linq.md)
