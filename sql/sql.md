@@ -25,6 +25,13 @@ INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Cou
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 ```
 
+- `join`
+
+```sql
+SELECT Orders.OrderID, Customers.CustomerNameFROM OrdersINNER JOIN
+  Customers ON Orders.CustomerID = Customers.CustomerID;
+```
+
 - `select`
 
 ```sql
