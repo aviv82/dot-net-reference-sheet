@@ -1,10 +1,10 @@
 # solid principles of object orient design
 
-- **S** single responsibility principle (srp)
-- **O** open closed principle (ocp)
-- **L** liskov substitution principle (lsp)
-- **I** interface segregation principle (isp)
-- **D** dependency inversion principle (dip)
+- **S** - single responsibility principle (srp)
+- **O** - open closed principle (ocp)
+- **L** - liskov substitution principle (lsp)
+- **I** - interface segregation principle (isp)
+- **D** - dependency inversion principle (dip)
 
 ## srp - single responsibility principle
 
@@ -24,7 +24,7 @@
 
 ## dip - dependency inversion principle
 
-> entities must depend on abstractions, not on concretions. the high-level module must not depend on the low-level module, but they should depend on abstractions.
+> entities must depend on abstractions, not on concretions. the high-level module must not depend on the low-level module, but they should depend on abstractions
 
 ### resources
 
