@@ -15,6 +15,7 @@
 ## data types
 
 - [strings](./data-types/strings.md)
+- [integers](./data-types/integers.md)
 
 ## linq
 
