@@ -15,7 +15,7 @@
 ## data types
 
 - [strings](./data-types/strings.md)
-- [integers](./data-types/integers.md)
+- [integers](./data-types/integers.md`)
 
 ## linq
 
@@ -28,6 +28,10 @@
 ## sql
 
 - [sql reference sheet](./sql/sql.md)
+
+## typescript/angular
+
+- [angular](./typescript-angular/angular.md)
 
 ## utility
 
