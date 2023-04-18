@@ -32,6 +32,7 @@
 ## typescript/angular
 
 - [angular](./typescript-angular/angular.md)
+- [typescript](./typescript-angular/typescript.md)
 
 ## utility
 
