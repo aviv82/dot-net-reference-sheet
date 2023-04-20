@@ -128,3 +128,25 @@ foreach (var pair in pairs)
 //     Key: Color3, Value: 'blue'
 //     Key: Title, Value: 'Code Repository'
 ```
+
+## trim end
+
+```c#
+string sentence = "The dog had a bone, a ball, and other toys.";
+char[] charsToTrim = {',', '.', ' '};
+string[] words = sentence.Split();
+foreach (string word in words)
+   Console.WriteLine(word.TrimEnd(charsToTrim));
+
+// The example displays the following output:
+//       The
+//       dog
+//       had
+//       a
+//       bone
+//       a
+//       ball
+//       and
+//       other
+//       toys
+```
