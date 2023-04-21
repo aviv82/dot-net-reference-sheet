@@ -35,6 +35,10 @@
 
   `dotnet ef migrations add V1`
 
+  - create migration from separate project(use sln folder)
+
+`dotnet ef migrations add migration-name --project domain-project-name --startup-project api-project-name`
+
 - list migrations
 
   `dotnet ef migrations list`
@@ -50,6 +54,10 @@
 - update database
 
 `dotnet ef database update`
+
+- upfate db from outside project(use sln folder)
+
+`dotnet ef database update migration-name --project domain-project-name --startup-project api-project-name`
 
 ### resources
 
