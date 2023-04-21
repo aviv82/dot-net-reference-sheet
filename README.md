@@ -16,7 +16,7 @@
 
 - [datetime](./data-types/datetime.md)
 - [strings](./data-types/strings.md)
-- [integers](./data-types/integers.md`)
+- [integers](./data-types/integers.md)
 
 ## linq
 
