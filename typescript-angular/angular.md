@@ -12,11 +12,19 @@
 
 - new component
 
-`ng generate c [path+name]`
+`ng generate c path+name`
+
+- new module 
+
+`ng generate m pat+name --flat --module=app`
+
+- new server 
+
+`ng generate s path+name`
 
 - run live
 
-`ng serve`
+`ng serve --open`
 
 ### reference
 
