@@ -21,3 +21,13 @@
 - run tsc
 
 `node filename`
+
+## methods
+
+- sort array alphabetically
+
+```ts
+list: string[];
+
+list.sort((a,b)=> a.name.localCompare(b.name));
+```
