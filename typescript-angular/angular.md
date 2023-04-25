@@ -16,7 +16,11 @@
 
 - new module 
 
-`ng generate m pat+name --flat --module=app`
+`ng generate m pat+name`
+
+- new module + routing module
+
+`ng generate m pat+name --routing`
 
 - new server 
 
