@@ -12,10 +12,10 @@
 
 - **C** `consistency`
 
-      > Consistency ensures that transaction can only bring the database
-      > from one consistent state to another, preserving database invariants:
-      > any data written to the database must be valid according to all defined rules,
-      > including constraints, cascades, triggers, and any combination thereof.
+   > Consistency ensures that transaction can only bring the database
+   >   from one consistent state to another, preserving database invariants:
+   >   any data written to the database must be valid according to all defined rules,
+   >  including constraints, cascades, triggers, and any combination thereof.
 
 - **I** `isolation`
 
