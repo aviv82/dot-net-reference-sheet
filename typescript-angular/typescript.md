@@ -27,7 +27,7 @@
 - sort array alphabetically
 
 ```ts
-list: string[];
+list: someData[];
 
 list.sort((a,b)=> a.name.localeCompare(b.name));
 ```
