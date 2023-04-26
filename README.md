@@ -9,8 +9,8 @@
 
 ## core concepts
 
-- [database normalization and acid](./core%20concepts/db-normalization-and-acid.md)
-- [solid principles](./core%20concepts/s-o-l-i-d-principles.md)
+- [database normalization and acid](./core-concepts/db-normalization-and-acid.md)
+- [solid principles](./core-concepts/s-o-l-i-d-principles.md)
 
 ## data types
 

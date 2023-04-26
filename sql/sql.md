@@ -18,6 +18,12 @@ CREATE TABLE Persons (
 );
 ```
 
+- `delete column`
+
+```sql
+DELETE FROM Customers;
+```
+
 - `insert data`
 
 ```sql
