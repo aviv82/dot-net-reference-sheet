@@ -26,6 +26,10 @@
 
 - [haversine formula](./miscellaneous/haversine-formula.md)
 
+## regex
+
+- [regex](./regex/regex.md)
+
 ## sql
 
 - [sql reference sheet](./sql/sql.md)
